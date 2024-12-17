@@ -2,7 +2,7 @@ import './App.css'
 import 'primereact/resources/themes/lara-light-blue/theme.css'; 
 import 'primereact/resources/primereact.min.css'; 
 import 'primeicons/primeicons.css';
-import './index.css'; )
+import './index.css'; 
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { DataTableStateEvent,DataTableSelectionMultipleChangeEvent } from "primereact/datatable";
