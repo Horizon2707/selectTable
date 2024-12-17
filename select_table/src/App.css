@@ -1,0 +1,13 @@
+.main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow:hidden
+}
+.selector{
+    color: black;
+}
+.selection-input{
+    padding-right: 10px;
+}
