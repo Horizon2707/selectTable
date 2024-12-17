@@ -53,8 +53,9 @@ function App() {
   }
 
   const onPageChange = (event:DataTableStateEvent) => {
-    console.log("Page no"+ event.page)
-    setCurrPage(event.page);
+    if (event.page !== undefined) {
+      setCurrPage(event.page);
+    }
   }
 
   const onSelectionChange = (event:DataTableSelectionMultipleChangeEvent<[]>) =>{
